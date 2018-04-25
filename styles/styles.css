@@ -1,0 +1,171 @@
+body{
+    margin:0;
+    background-color: rgba(124, 41, 41, 0.82);
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.login{
+    padding-left: 300px;
+}
+
+.header-container {
+    
+    background: #FFC0CB;
+    border-bottom: 10px solid 	rgba(124, 41, 41, 0.82);
+}
+
+.header-container,
+.footer-container {
+    background: rgba(241, 201, 201, 0.6);
+}
+
+.footer-container {
+    color: black;
+    padding: 20px 0;
+    border-top: 10px solid 	rgba(124, 41, 41, 0.82);
+}
+form {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.formClass {
+    width: 700px;
+    padding-left: auto;
+}
+
+td {
+    font-size: 85%;
+    padding-left: 10px;
+}
+
+table {
+    width: 900 px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+p {
+    top: 0px;
+}
+.buttonClass{
+    height: 20px;
+    width: 90px;
+}
+
+.pClass {
+    display: none;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    box-shadow: 0px 0px 15px #131212;
+}
+
+h1{
+    margin:0;
+    display: inline-block;
+}
+
+.header{
+    padding:10px;
+}
+.main{
+    padding:10%;
+    background-color: rgba(247, 231, 231, 0.94);
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    width: 900px;
+    height: auto;
+}
+
+.flex-item {
+    width: 300px;
+    padding-right: 10%;
+}
+
+.title {
+    color: white;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-shadow: 3px 2px grey;
+}
+
+.row {
+    background-color: rgba(124, 41, 41, 0.82);
+    height: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    color: white;
+    font-size: 14.5px;
+    background: rgba(124, 41, 41, 0.82);
+}
+
+nav a:hover {
+    background: rgba(177, 117, 117, 0.82);    
+    text-decoration: underline;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-left: 90px;
+    color: white;
+}
+
+p {
+    color: #292424;
+    width: 800px;
+}
+
+.text {
+    color: black;
+    width: auto;
+}
+
+@media only screen and (min-width: 480px) {
+    nav a {
+        float: left;
+        width: 25%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+}
+
+
